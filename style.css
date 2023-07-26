@@ -1,3 +1,5 @@
+/* stylelint-disable CssSyntaxError */
+/* stylelint-disable font-family-no-missing-generic-family-keyword */
 @import url( 'https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@300&family=Poppins:wght@300;400&family=Roboto:wght@300;500&display=swap');
 
@@ -27,7 +29,7 @@ nav {
 }
 
 nav p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
   font-weight: 600;
 }
 
@@ -37,7 +39,7 @@ nav p {
   flex-wrap: wrap;
   background-image: url(images/img.png);
   background-repeat: no-repeat;
-  background-color: black;
+  background-color: #1c1a19;
   background-position: right bottom;
   gap: 10%;
   padding: 34% 6%  48% 6%;
@@ -48,7 +50,6 @@ nav p {
   height: 30%;
   color: #ff6b00;
   text-align: start;
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-family: 'Crete Round';
   font-size: 337%;
   font-style: normal;
@@ -58,14 +59,15 @@ nav p {
 }
 
 .heading h3 {
-  font-family: sans-serif;
+  font-family: 'Roboto';
   color: #fff5e1;
   padding: 3% 0%;
+  font-size: 1.4rem;
 }
 
 .main-text {
   font-size: 100%;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins';
   font-weight: 400;
   line-height: 140%;
   width: 86%;
@@ -85,15 +87,23 @@ nav p {
 .react-work {
   padding: 24% 20%;
   width: 90%;
+
+  /* display: flex; */
+
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
 }
 
-.react-work h2 {
-  font-weight: 400;
+.react-work h1 {
+  font-weight: bold;
   padding: 10% 0%;
+  width: 8em;
+  font-family: 'create Round';
 }
 
 .vector img {
-  width: 100%;
+  width: 15rem;
 }
 
 .react-post {
@@ -106,18 +116,17 @@ nav p {
 
 .title-post {
   margin-top: 5%;
-  font-size: 202%;
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-size: 2rem;
   font-family: 'Crete Round';
   font-weight: 400;
 }
 
 .description {
   margin-top: 2%;
-  font-size: 113%;
-  font-family: 'Inter', sans-serif;
+  font-size: 19px;
   font-weight: 400;
-  line-height: 125%;
+  line-height: 118%;
+  color: #091e42;
 }
 
 .lang {
@@ -127,8 +136,8 @@ nav p {
 }
 
 .langs {
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
+  font-family: 'inter';
+  font-weight: 600;
   border: 1px solid #8993a4;
   padding: 6%;
 }
@@ -136,7 +145,7 @@ nav p {
 .btn {
   background-color: #ff6b00;
   color: white;
-  font-family: 'Inter', sans-serif;
+  font-family: 'inter';
   padding: 4%;
   font-weight: bold;
   letter-spacing: 1.37px;
@@ -146,6 +155,7 @@ nav p {
   margin: 7% 7%;
   background-image: url('images/placeholder2.png');
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .text3 {
@@ -154,7 +164,6 @@ nav p {
 
 .text3 p {
   color: white;
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-family: 'Crete Round';
   font-size: 195%;
   font-weight: 400;
@@ -165,8 +174,7 @@ nav p {
 
 .description3 p {
   color: white;
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
-  font-family: 'Inter';
+  font-family: 'inter';
   font-size: 113%;
   line-height: 125.5%;
   padding: 3% 4%;
@@ -186,7 +194,7 @@ nav p {
   background: rgba(255, 255, 255, 0.24);
   color: white;
   font-size: 91%;
-  font-family: 'Inter', sans-serif;
+  font-family: 'inter';
   list-style-type: none;
   padding: 4%;
 }
@@ -196,7 +204,6 @@ nav p {
   background: #ff6b00;
   color: white;
   text-align: center;
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-family: 'Inter';
   border: none;
   font-size: 110%;
@@ -215,12 +222,11 @@ nav p {
   flex-direction: column;
   align-items: flex-start;
   gap: 24px;
-  background-color: black;
+  background-color: #1c1a19;
 }
 
 .about-me {
   color: #ff6b00;
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-family: 'Crete Round';
   font-size: 450%;
   line-height: 93.5%; /* 122.222% */
@@ -229,9 +235,8 @@ nav p {
 
 .paragraph {
   color: #f4f5f7;
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
-  font-family: 'Inter';
-  font-size: 105%;
+  font-family: 'inter';
+  font-size: 1rem;
   line-height: 140.5%; /* 150% */
 }
 
@@ -241,7 +246,6 @@ nav p {
   width: 48%;
   padding: 5%;
   text-align: center;
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-family: 'Crete Round';
   font-size: 104%;
   line-height: 90%;
@@ -258,7 +262,7 @@ nav p {
 }
 
 .li-sections {
-  background-color: black;
+  background-color: #1c1a19;
   display: flex;
   padding: 2% 0% 20% 0%;
   flex-direction: column;
@@ -280,15 +284,13 @@ nav p {
 
 .la {
   list-style-type: none;
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
-  font-family: 'Inter';
+  font-family: 'inter';
   font-size: 210%;
   font-weight: 700;
   color: #fff;
 }
 
 .langs-4 {
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-family: 'Inter';
   list-style-type: none;
   display: flex;
@@ -311,8 +313,7 @@ nav p {
 
 .fw {
   list-style-type: none;
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
-  font-family: 'Inter';
+  font-family: 'inter';
   font-size: 210%;
   font-weight: 700;
   padding-top: 10%;
@@ -321,7 +322,6 @@ nav p {
 }
 
 .frameworks-4 {
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-family: 'Inter';
   list-style-type: none;
   display: flex;
@@ -354,7 +354,6 @@ nav p {
 
 .sk {
   list-style-type: none;
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-family: 'Inter';
   font-size: 210%;
   font-weight: 700;
@@ -363,7 +362,6 @@ nav p {
 }
 
 .skills-4 {
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-family: 'Inter';
   color: #fff;
   list-style-type: none;
@@ -386,11 +384,10 @@ nav p {
 .text-last {
   color: #172b4d;
   text-align: center;
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
-  font-family: 'Inter';
+  font-family: 'inter';
   font-size: 213%;
-  font-weight: 700;
   line-height: 137.5%; /* 137.5% */
+  font-weight: 700;
 }
 
 .client-form {
@@ -403,27 +400,26 @@ nav p {
   border: none;
   font-size: 95%;
   padding: 5% 10%;
-  width: 186%;
+  width: 100%;
 }
 
 .email {
   border: none;
   font-size: 95%;
   padding: 5% 10%;
-  width: 186%;
+  width: 100%;
 }
 
 .comment {
   border: none;
   background: #fbf8f7;
-  padding: 1%;
+  padding-left: 5%;
   width: 100%;
   line-height: 500%;
   font-weight: bold;
   background-image: url('images/Resizer.png');
   background-repeat: no-repeat;
   background-position: right bottom;
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-family: 'Inter';
 }
 
@@ -432,7 +428,6 @@ nav p {
   border-style: none;
   color: #fff;
   text-align: center;
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-family: 'Inter';
   font-size: 100%;
   font-weight: bold;
