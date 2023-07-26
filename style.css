@@ -408,6 +408,7 @@ nav p {
   font-size: 95%;
   padding: 5% 10%;
   width: 100%;
+  margin-bottom: 3%;
 }
 
 .comment {
@@ -435,7 +436,14 @@ nav p {
   letter-spacing: 0.51px;
   padding: 5%;
   margin-left: 27%;
-  margin-top: -5%;
+  margin-top: 5%;
+  cursor: pointer;
+}
+
+.touch-btn:hover {
+  color: #f55800;
+  border: 1px solid #f55800;
+  background: #fff5e1;
 }
 
 .dvd {
