@@ -223,14 +223,18 @@
         <div class="text-last">
             <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
         </div>
-        <div class="client-form">
-            <input class="fname" type="text" placeholder="Full name">
-            <div><img src="images/linebr.png" alt=""></div>
-            <input class="email" type="email" placeholder="Email address">
-            <div><img src="images/linebr.png" alt=""></div>
-            <textarea name="comment" class="comment" placeholder="Write me something ..." cols="5" rows="2"></textarea>
-        </div>
-        <button class="touch-btn">Get in touch</button>
+        <form name="contect-form" accept-charset="utf-8" action="https://formspree.io/f/meqbobqd" method="post">
+
+            <div class="client-form">
+                <input class="fname" type="text" name="Name" placeholder="Full name" required maxlength="30">
+                <div><img src="images/linebr.png" alt=""></div>
+                <input class="email" type="email" name="E-mail" placeholder="Email address" required>
+                <div><img src="images/linebr.png" alt=""></div>
+                <textarea name="message" class="comment" placeholder="Write me something ..." cols="5" rows="2"
+                    maxlength="500" required></textarea>
+            </div>
+            <input type="submit" value="Get in touch" class="touch-btn">
+        </form>
         <div class="dvd">
             <img src="image/Devider.png" alt="">
         </div>
@@ -241,14 +245,14 @@
                         src="images/linkedin1.png" alt=""></a></div>
             <div class="icn"><a href="https://www.angellist.com"><img src="images/angerlist1.png" alt=""></a>
             </div>
-                    <div class="icn"><a href="https://twitter.com"><img src="images/twitter1.png" alt=""></a>
-                    </div>
-                            <div class="icn"><a href="https://medium.com"><img src="images/Medium1.png" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="shape">
-                            <img src="images/Shape.png" alt="">
-                        </div>
+            <div class="icn"><a href="https://twitter.com"><img src="images/twitter1.png" alt=""></a>
+            </div>
+            <div class="icn"><a href="https://medium.com"><img src="images/Medium1.png" alt=""></a>
+            </div>
+        </div>
+        <div class="shape">
+            <img src="images/Shape.png" alt="">
+        </div>
     </section>
 </body>
 
